@@ -1,0 +1,17 @@
+# in this file you can connect extra config files
+# Usage:
+# sectionname_path: /path/to/file.yaml
+# you can get parameters use Config::getParam or Config::getAllParam
+#   [sectionname] => [
+#      'variable1' => 'value1',
+#      'variable2' => 'value2',
+#   ]
+# suffix '_log_path' is required for connect extra config file
+log_log_path: /var/www/html/src/Marchenko/Logger/log_config.yaml
+storage_log_path: /var/www/html/src/Marchenko/Storage/storage_config.yaml
+allowed_commands:
+  - add
+  - remove
+
+
+

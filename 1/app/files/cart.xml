@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cart>
+  <item>
+    <sku>SSS</sku>
+    <qty>111</qty>
+  </item>
+  <item>
+    <sku>SKU222</sku>
+    <qty>3</qty>
+  </item>
+</cart>
