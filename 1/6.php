@@ -27,5 +27,5 @@ var_dump($result);
 $result = calc(2)(3)('pow');
 var_dump($result);
 
-// Бесконечное каррирование не смог реализовать, 
-// смог сделать только для функции с тремя аргументами. 
+// I could not implement infinite currying, 
+// I could only do it for a function with three arguments.
