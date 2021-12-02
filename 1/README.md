@@ -40,7 +40,7 @@ The function of searching users by email has been given. Please describe what po
 
 see file 4.php
 
-## 4 functional programming
+## 4 Functional programming
 
 Please write an implementation of the **calc** function for the code below
 
