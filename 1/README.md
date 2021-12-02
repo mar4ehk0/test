@@ -33,12 +33,12 @@ see folder 1
 ## 2 First character to uppercase
 Write the command in one line to convert the first character to uppercase. Example москва should be Москва
 
-see file (3.php)[https://github.com/mar4ehk0/test/blob/master/1/3.php]
+see file [3.php](https://github.com/mar4ehk0/test/blob/master/1/3.php)
 
 ## 3 Code review
 The function of searching users by email has been given. Please describe what potential problems you see with this function.
 
-see file 4.php
+see file [4.php](https://github.com/mar4ehk0/test/blob/master/1/4.php)
 
 ## 4 Functional programming
 
@@ -51,7 +51,7 @@ calc(1)(2)($sum);       // 3
 calc(2)(3)('pow');      // 8
 ```
 
-see file 6.php
+see file [6.php](https://github.com/mar4ehk0/test/blob/master/1/6.php)
 
 ## 5 Pack user data
 
@@ -63,4 +63,4 @@ $isApproved = false;
 $gender = 1; // possible values: 0, 1, 2
 $showAdultContent = false;
 ```
-see file 7.php
+see file [7.php](https://github.com/mar4ehk0/test/blob/master/1/7.php)
