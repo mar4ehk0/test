@@ -52,3 +52,15 @@ calc(2)(3)('pow');      // 8
 ```
 
 see file 6.php
+
+## 5 Pack user data
+
+Suggest a way to package the following user data with the most compact result (binary result allowed):
+
+$isAdmin = false;
+$isModerator = true;
+$isApproved = false;
+$gender = 1; // possible values: 0, 1, 2
+$showAdultContent = false;
+
+see file 7.php
