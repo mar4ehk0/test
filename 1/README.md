@@ -27,3 +27,10 @@ It is necessary that:
 3 - When executing the “remove [SKU] [QTY]” product removal command, the information on product removal was updated (similar to 2). If the quantity of products <= 0, then you need to delete the corresponding entry in the XML.
 
 4 - The script can work in console or via POST requests
+
+see folder 1
+
+## 3 First character to uppercase
+Write the command in one line to convert the first character to uppercase. Example москва should be Москва
+
+see file 3.php
