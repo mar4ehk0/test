@@ -40,3 +40,15 @@ The function of searching users by email has been given. Please describe what po
 
 see file 4.php
 
+## 4 functional programming
+
+Please write an implementation of the **calc** function for the code below
+
+```
+$sum = function($a, $b)  { return $a + $b; };
+calc(5)(3)(2)($sum);    // 10
+calc(1)(2)($sum);       // 3
+calc(2)(3)('pow');      // 8
+```
+
+see file 6.php
