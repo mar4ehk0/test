@@ -33,7 +33,7 @@ see folder 1
 ## 2 First character to uppercase
 Write the command in one line to convert the first character to uppercase. Example москва should be Москва
 
-see file 3.php
+see file (3.php)[https://github.com/mar4ehk0/test/blob/master/1/3.php]
 
 ## 3 Code review
 The function of searching users by email has been given. Please describe what potential problems you see with this function.
