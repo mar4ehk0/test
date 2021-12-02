@@ -1,7 +1,1 @@
-# Запуск
-запустите контейнеры путем коммандой `docker-compose up --build -d`
-
-Для консольного теста подключитесь к контейнеру php коммандой `docker-compose exec php bash` смените дирректорию `cd public` и можно выполнить комманду `php index.php add sku1 12`
-
-Для бразуреного теста нужно добавить в системный файла hosts строку `127.0.0.1 mysite.local`, откройте Postman или аналогичное ПО и отправьте данные методом POST, доступные ключи command, sku, qty 
- 
+This repository contains the tests I did for the interview
