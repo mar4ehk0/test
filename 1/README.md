@@ -1,6 +1,29 @@
-# Запуск
-запустите контейнеры путем коммандой `docker-compose up --build -d`
+# Test description
+## 1 Cart.xml
+There is an xml file (cart.xml) with the following content:
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<cart>
+<item>
+	<sku>1111</sku>
+	<qty>3</qty>
+</item>
+<item>
+	<sku>2222</sku>
+	<qty>1</qty>
+</item>
+<item>
+	<sku>3333</sku>
+	<qty>44</qty>
+</item>
+</cart>
+```
+It is necessary that:
 
-Для консольного теста подключитесь к контейнеру php коммандой `docker-compose exec php bash` смените дирректорию `cd public` и можно выполнить комманду `php index.php add sku1 12`
+1 - Cart.xml was created if it doesn't exist.
 
-Для бразуреного теста нужно добавить в системный файла hosts строку `127.0.0.1 mysite.local`, откройте Postman или аналогичное ПО и отправьте данные методом POST, доступные ключи command, sku, qty 
+2 - When executing the command for adding a product “add [SKU] [QTY]” of the php file (example: php index.php add 1111 2), information about the article of the product and its quantity was written to the xml file (if there is a product, then increase the quantity, if there is no product, then add).
+
+3 - When executing the “remove [SKU] [QTY]” product removal command, the information on product removal was updated (similar to 2). If the quantity of products <= 0, then you need to delete the corresponding entry in the XML.
+
+4 - The script can work in console or via POST requests
