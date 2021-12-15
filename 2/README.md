@@ -1,4 +1,4 @@
-##Test description
+## Test description
 
 For inventory management, goods are stored in the following class:
 
@@ -22,7 +22,7 @@ The exception is group 0 products, they cannot be combined.
 
 Consider changing the combine rule. Business wants to combine articles according to a business rule that we know you don't yet know. Refactor your code to achieve this. As an example, we might want to group by name, an attribute that doesn't exist yet, or any condition that has nothing to do with articles at all.
 
-##Usage
+## Usage
 
 Start containers by command `docker-compose up --build -d`
 
