@@ -1,0 +1,31 @@
+- name: EE
+  group: 1
+  price: 88
+
+- name: WW
+  group: 1
+  price: 20
+
+- name: YY
+  group: 2
+  price: 35
+
+- name: EE
+  group: 1
+  price: 100
+
+- name: EE
+  group: 0
+  price: 30
+
+- name: WW
+  group: 2
+  price: 95
+
+- name: YY
+  group: 2
+  price: 70
+
+- name: EE
+  group: 0
+  price: 50

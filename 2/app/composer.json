@@ -1,0 +1,24 @@
+{
+  "type": "project",
+  "name": "mar4ehk0/test",
+  "description": "Test",
+  "authors": [
+    {
+      "name": "Alex Marchenko",
+      "email": "mar4ehk0@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "symfony/yaml": "^5.2.1",
+    "ext-dom": "*",
+    "ext-sockets": "*",
+    "ext-bcmath": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Marchenko\\" : "src/Marchenko"
+    }
+  }
+}
