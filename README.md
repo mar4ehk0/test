@@ -1,1 +1,1 @@
-This repository contains the tests I did for the interview
+This repository contains the tests I have done for the interviews
