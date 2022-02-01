@@ -1,0 +1,29 @@
+CREATE TABLE `users` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `gender` tinyint NOT NULL,
+  `birth_date` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=368 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+
+CREATE TABLE `phone_numbers` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `user_id` int NOT NULL,
+  `phone` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `phone_numbers_FK` (`user_id`),
+  CONSTRAINT `phone_numbers_FK` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4511 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+
+SELECT u.id, u.name, COUNT(pn.phone) from blog.users as u 
+JOIN blog.phone_numbers pn ON pn.user_id = u.id 
+WHERE u.gender = 2 
+and (UNIX_TIMESTAMP() - birth_date > 568024668 AND  UNIX_TIMESTAMP() - birth_date < 694252372)
+GROUP BY u.id 
+
+
+При добавлении индекса в таблицу users на поле gender, увиличивается стоимость запроса.
+записей было 330
+
+
+1 hour
