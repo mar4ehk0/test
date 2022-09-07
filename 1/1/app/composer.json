@@ -1,0 +1,26 @@
+{
+  "type": "project",
+  "name": "mar4ehk0/test",
+  "description": "test cart.xml",
+  "authors": [
+    {
+      "name": "Alex Marchenko",
+      "email": "mar4ehk0@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "monolog/monolog": "^2.2",
+    "symfony/yaml": "^5.2.1",
+    "symfony/http-foundation": "^5.3",
+    "ext-dom": "*",
+    "ext-sockets": "*",
+    "ext-bcmath": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Marchenko\\" : "src/Marchenko"
+    }
+  }
+}
